@@ -42,7 +42,7 @@
 						<blockquote>
 							ライセンス（米: license、英: licence）は、それが存在しなければ違法となる行為をすることを許可すること、あるいはその許可を証する書面のことをいう。<br>
 						</blockquote>
-   						<cite><small>https://ja.wikipedia.org/wiki/ライセンス</small></cite>
+   					<cite><small>https://ja.wikipedia.org/wiki/ライセンス</small></cite>
 					</section>
 					<section>
 						<img src="./img/motoakioi_license.png">
@@ -121,20 +121,20 @@
 							<div style="flex:1">
 								<h4>許可</h4>
 								<ul>
-									<li>-</li>
+									<li>著作権に従う</li>
 								</ul>
 							</div>
 							<div style="flex:1">
 								<h4>制限</h4>
 								<ul>
-									<li>-</li>
+									<li>著作権に従う</li>
 								</ul>
 							</div>
 						</div>
 						<div style="padding-top:3rem">
 							<h4>条件</h4>
 							<ul>
-								<li>-</li>
+								<li>著作権に従う</li>
 							</ul>
 						</div>
 					</section>
@@ -334,7 +334,11 @@
 								<h5>改変禁止 (nd)</h5>
 							</div>
 						</div>
-						これらの組み合わせで6通りのライセンスを実現．
+						これらの組み合わせで6通りのライセンスを実現．<br>
+						<small><small>
+							Ⓒ クリエイティブ・コモンズ・ジャパン<br>
+							本項の図はすべて<a href="https://creativecommons.org/licenses/by/4.0/">クリエイティブ・コモンズ・ライセンス(表示4.0 国際)</a>のもとに掲載を許諾されています．
+						</small></small>
 					</section>
 					<section style="padding-top:10rem">
 						<ul>
@@ -351,7 +355,7 @@
 
 				<section>
 					<h3>CC BY</h3>
-					<img src="img/ccby.svg" style="border:none; background:none">
+					<img src="img/ccby.svg" style="border:none; background:none"><br>
 					<section>
 						<div style="display:flex; padding-top:8rem">
 							<div style="flex:1">
@@ -380,12 +384,20 @@
 								<li>変更点を明記する</li>
 							</ul>
 						</div>
+						<small><small>
+							Ⓒ クリエイティブ・コモンズ・ジャパン<br>
+							本項の図はすべて<a href="https://creativecommons.org/licenses/by/4.0/">クリエイティブ・コモンズ・ライセンス(表示4.0 国際)</a>のもとに掲載を許諾されています．
+						</small></small>
 					</section>
 					<section>
 						<ul>
 							<li>CCライセンスの中でもっともゆるい</li>
 							<li>これ以上のゆるいのがほしいなら，CC0</li>
 						</ul>
+						<small><small>
+							Ⓒ クリエイティブ・コモンズ・ジャパン<br>
+							本項の図はすべて<a href="https://creativecommons.org/licenses/by/4.0/">クリエイティブ・コモンズ・ライセンス(表示4.0 国際)</a>のもとに掲載を許諾されています．
+						</small></small>
 					</section>
 				</section>
 
@@ -413,7 +425,7 @@
 								</ul>
 							</div>
 						</div>
-						<div style="padding-top:1rem">
+						<div style="padding-top:0rem">
 							<h4>条件</h4>
 							<ul>
 								<li>オリジナルのライセンスと著作権表示を残す</li>
@@ -421,34 +433,64 @@
 								<li>ライセンスの継承</li>
 							</ul>
 						</div>
+						<small><small>
+							Ⓒ クリエイティブ・コモンズ・ジャパン<br>
+							本項の図はすべて<a href="https://creativecommons.org/licenses/by/4.0/">クリエイティブ・コモンズ・ライセンス(表示4.0 国際)</a>のもとに掲載を許諾されています．
+						</small></small>
 					</section>
 					<section>
 						<ul>
-							<li>CCライセンスの中でもっともゆるい</li>
-							<li>当然ながらGNUの自由ソフトウエアで多く使用</li>
+							<li>CCの継承系．</li>
 						</ul>
+						<small><small>
+							Ⓒ クリエイティブ・コモンズ・ジャパン<br>
+							本項の図はすべて<a href="https://creativecommons.org/licenses/by/4.0/">クリエイティブ・コモンズ・ライセンス(表示4.0 国際)</a>のもとに掲載を許諾されています．
+						</small></small>						
 					</section>
 				</section>
-
-
-							</div>
-						</div>
-
-						<script src="lib/js/head.min.js"></script>
-						<script src="js/reveal.js"></script>
-
-						<script>
-						// More info about config & dependencies:
-							// - https://github.com/hakimel/reveal.js#configuration
-						// - https://github.com/hakimel/reveal.js#dependencies
-						Reveal.initialize({
-							dependencies: [
-								{ src: 'plugin/markdown/marked.js' },
-								{ src: 'plugin/markdown/markdown.js' },
-								{ src: 'plugin/notes/notes.js', async: true },
-								{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
-							]
-						});
-						</script>
+				<section>
+					<h3>GitHubでのライセンスのあつかい</h3>
+					<ul>
+						<li>LICENSEというファイルに記載したライセンスがレポジトリのライセンスを示す</li>
+						<li>その他に使用しているライセンスはREADMEにでも書いておこう</li>
+						<li><s>実は詳しくはしらない</s></li>
+					</ul>
+				</section>
+				<section>
+					<h3>おわり</h3>
+					<ul>
+						<li>全然わからなかった<br>
+							→実は<s>よくわかっていない</s>すごい難しいんです
+						</li>
+						<li>ライセンスって面倒<br>
+							→根底にある著作権はもっと面倒です
+						</li>
+						<li>他にライセンスはあるの<br>
+							→<a href="https://choosealicense.com/">https://choosealicense.com/</a>をご覧ください
+						</li>
+						<li>CCライセンス選ぶのめんどい<br>
+							→<a href="https://creativecommons.org/choose/?lang=ja">https://creativecommons.org/choose/?lang=ja</a>でポチポチするだけで選べます
+						</li>
+					</ul>
+				</section>
+			</div>
+		</div>
+		
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.js"></script>
+		
+		<script>
+		// More info about config & dependencies:
+			// - https://github.com/hakimel/reveal.js#configuration
+		// - https://github.com/hakimel/reveal.js#dependencies
+		Reveal.initialize({
+			dependencies: [
+				{ src: 'plugin/markdown/marked.js' },
+				{ src: 'plugin/markdown/markdown.js' },
+				{ src: 'plugin/notes/notes.js', async: true },
+				{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
+			]
+		});
+		</script>
 	</body>
 </html>
