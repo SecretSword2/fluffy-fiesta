@@ -1,331 +1,454 @@
 <!doctype html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    
-    <title>ソフトウエアとライセンス</title>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+		
+		<title>ソフトウエアとライセンス</title>
 
-    <link rel="stylesheet" href="css/reveal.css">
-    <link rel="stylesheet" href="css/theme/black.css">
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/black.css">
 
-    <!-- Theme used for syntax highlighting of code -->
-    <link rel="stylesheet" href="lib/css/zenburn.css">
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
 
-    <!-- Printing and PDF exports -->
-    <script>
-      var link = document.createElement( 'link' );
-      link.rel = 'stylesheet';
-      link.type = 'text/css';
-      link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
-      document.getElementsByTagName( 'head' )[0].appendChild( link );
-    </script>
-  </head>
-  <body>
-    <div class="reveal">
-      <div class="slides">
-	<section>
-	  <section>
-	    <h2>ソフトウエアとライセンス</h2>
-	    <small><small>
-		<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="クリエイティブ・コモンズ・ライセンス" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br /><a xmlns:cc="http://creativecommons.org/ns#" href="https://github.com/SecretSword2" property="cc:attributionName" rel="cc:attributionURL">torin</a> 作『<span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">ソフトウエアとライセンス</span>』は<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">クリエイティブ・コモンズ 表示 - 継承 4.0 国際 ライセンス</a>で提供されています。<br />このライセンスで許諾される範囲を超えた利用の可能性については以下のアドレスもご覧下さい。 <a xmlns:cc="http://creativecommons.org/ns#" href="https://github.com/hakimel/reveal.js" rel="cc:morePermissions">https://github.com/hakimel/reveal.js</a>
-	    </small></small>
-	  </section>
-	  <section>
-	    このスライドは<a href="https://github.com/hakimel/reveal.js/">Reveal.js</a>でお送りしております。<br>
-	    みんなも使おう！
-	  </section>
-	</section>
-	<section>
-	  <h3>ライセンスとは？</h3>
-	  <section>
-	    <blockquote>
-	      ライセンス（米: license、英: licence）は、それが存在しなければ違法となる行為をすることを許可すること、あるいはその許可を証する書面のことをいう。<br>
-	    </blockquote>
-   	    <cite><small>https://ja.wikipedia.org/wiki/ライセンス</small></cite>
-	  </section>
-	  <section>
-	    <img src="./img/motoakioi_license.png">
-	    これとか
-	  </section>
-	  <section>
-	    <img src="./img/thisslide_license.png">
-	    これのこと
-	  </section>
-	  <section>
-	    自分の著作物を他人がどう使えるかを示す文章
-	  </section>
-	</section>
-	<section>
-	  <h3>主要なライセンス</h3>
-	  <section>
-	    <h4>ソフトウエア用</h4>
-	    <ul>
-	      <li>ライセンスなし</li>
-	      <li>CC0</li>
-	      <li>MIT</li>
-	      <li>Apache License 2.0</li>
-	      <li>GNU GPLv3</li>
-	    </ul>
-	  </section>
-	  <section>
-	    <h4>データ、メディアなど用</h4>
-	    <ul>
-	      <li>ライセンスなし</li>
-	      <li>CC0</li>
-	      <li>CC BY</li>
-	      <li>CC BY-SA</li>
-	      <li>CC BY-ND</li>
-	      <li>CC BY-NC</li>
-	      <li>CC BY-NC-SA</li>
-	      <li>CC BY-NC-ND</li>
-	    </ul>
-	  </section>
-	</section>
-	<section>
-	  <h3>用語説明</h3>
-	  <table>
-	    <tr>
-	      <td>使用</td>
-	      <td>バイナリを実行</td>
-	    </tr>
-	    <tr>
-	      <td>コピー</td>
-	      <td>ソースをコピー</td>
-	    </tr>
-	    <tr>
-	      <td>改変</td>
-	      <td>ソースを改変</td>
-	    </tr>
-	    <tr>
-	      <td>頒布</td>
-	      <td>作者以外が頒布</td>
-	    </tr>
-	    <tr>
-	      <td>再許諾</td>
-	      <td>別のライセンスで再公開</td>
-	    </tr>
-	    <tr>
-	      <td>商用利用</td>
-	      <td>成果物を商用利用</td>
-	    </tr>
-	  </table>
-	</section>
-	<section>
-	  <h3>ライセンスなし</h3>
-	  <p><q cite="https://developers.slashdot.org/story/12/12/01/1739223/half-of-github-code-unsafe-to-use-if-you-want-open-source">誰にもコードを使うことを許可しないのなら，<br>どうしてGitHubに載せるんだい？</q></p>
-	  <section>
-	    <div style="display:flex; padding-top:10rem">
-	      <div style="flex:1">
-		<h4>許可</h4>
-		<ul>
-		  <li>-</li>
-		</ul>
-	      </div>
-	      <div style="flex:1">
-		<h4>制限</h4>
-		<ul>
-		  <li>-</li>
-		</ul>
-	      </div>
-	    </div>
-	    <div style="padding-top:3rem">
-	      <h4>条件</h4>
-	      <ul>
-		<li>-</li>
-	      </ul>
-	    </div>
-	  </section>
-	  <section>
-	    <ul>
-	      <li>ライセンスなしは<span style="color:lightgreen">すべてを許可</span>ではない．<br>
-		<span style="color:crimson">なにも許可しない</span>である．</li>
-	      <li>単純にライセンス書き忘れただけかと思われないように，ライセンスを与えない旨は書こう</li>
-	    </ul>
-	  </section>
-	</section>
-	<section>
-	  <h3>CC0</h3>
-	  <p><q cite="https://creativecommons.jp/sciencecommons/aboutcc0/">いかなる権利も保有しない</q></p>
-	  <section>
-	    <div style="display:flex; padding-top:10rem">
-	      <div style="flex:1">
-		<h4>許可</h4>
-		<ul>
-		  <li><span style="color:lightgreen">商用利用</span></li>
-		  <li><span style="color:lightgreen">頒布</span></li>
-		  <li><span style="color:lightgreen">改変</span></li>
-		  <li><span style="color:lightgreen">私的利用</span></li>
-		</ul>
-	      </div>
-	      <div style="flex:1">
-		<h4>制限</h4>
-		<ul>
-		  <li><span style="color:crimson">責任追求</span></li>
-		  <li><span style="color:crimson">特許利用</span></li>
-		  <li><span style="color:crimson">商標利用</span></li>
-		  <li><span style="color:crimson">保証</span></li>
-		</ul>
-	      </div>
-	    </div>
-	    <div style="padding-top:3rem">
-	      <h4>条件</h4>
-	      <ul>
-		<li>-</li>
-	      </ul>
-	    </div>
-	  </section>
-	  <section>
-	    <ul style="padding-top:10rem">
-	      <li>法律が絡むから，じつはパブリックドメインは難しい</li>
-	      <li>CC0はもっとも簡単にあらゆる権利を徹底的に放棄する選択肢</li>
-	    </ul>
-	    <div style="padding-top:3rem">
-	      <p>みなさんが思っている"ライセンスなし"の印象，<br>実はCC0なのでは？</p>
-	    </div>
-	  </section>
-	</section>
-	<section>
-	  <h3>MIT</h3>
-	  <p><q cite="https://choosealicense.com/licenses/mit/">短く完結で寛容なライセンス</q></p>
-	  <section>
-	    <div style="display:flex; padding-top:10rem">
-	      <div style="flex:1">
-		<h4>許可</h4>
-		<ul>
-		  <li><span style="color:lightgreen">商用利用</span></li>
-		  <li><span style="color:lightgreen">頒布</span></li>
-		  <li><span style="color:lightgreen">改変</span></li>
-		  <li><span style="color:lightgreen">私的利用</span></li>
-		</ul>
-	      </div>
-	      <div style="flex:1">
-		<h4>制限</h4>
-		<ul>
-		  <li><span style="color:crimson">責任追求</span></li>
-		  <li><span style="color:crimson">保証</span></li>
-		</ul>
-	      </div>
-	    </div>
-	    <div style="padding-top:3rem">
-	      <h4>条件</h4>
-	      <ul>
-		<li>オリジナルのライセンスと著作権表示を残す</li>
-	      </ul>
-	    </div>
-	  </section>
-	  <section>
-	    <ul>
-	      <li>ライセンスは171語しかない</li>
-	      <li><q cite="https://markezine.jp/article/detail/22108">GitHubで最も使われているオープンソースライセンス</q>らしい</li>
-	    </ul>
-	  </section>
-	</section>
-	<section>
-	  <h3>Apache 2.0</h3>
-	  <p><q cite="https://choosealicense.com/licenses/apache-2.0/">特許について心配です</q></p>
-	  <section>
-	    <div style="display:flex; padding-top:8rem">
-	      <div style="flex:1">
-		<h4>許可</h4>
-		<ul>
-		  <li><span style="color:lightgreen">商用利用</span></li>
-		  <li><span style="color:lightgreen">頒布</span></li>
-		  <li><span style="color:lightgreen">改変</span></li>
-		  <li><span style="color:lightgreen">私的利用</span></li>
-		  <li><span style="color:lightgreen">特許利用</span></li>
-		</ul>
-	      </div>
-	      <div style="flex:1">
-		<h4>制限</h4>
-		<ul>
-		  <li><span style="color:crimson">責任追求</span></li>
-		  <li><span style="color:crimson">保証</span></li>
-		  <li><span style="color:crimson">商標利用</span></li>
-		</ul>
-	      </div>
-	    </div>
-	    <div style="padding-top:1rem">
-	      <h4>条件</h4>
-	      <ul>
-		<li>オリジナルのライセンスと著作権表示を残す</li>
-		<li>変更点を明記する</li>
-	      </ul>
-	    </div>
-	  </section>
-	  <section>
-	    <ul>
-	      <li>特許との関係を明記したライセンス</li>
-	      <li>MITとどっちがゆるいのかは微妙</li>
-	    </ul>
-	  </section>
-	</section>
-	<section>
-	  <h3>GNU GPLv3</h3>
-	  <p><q cite="https://choosealicense.com/licenses/gpl-3.0/">強いコピーレフトなライセンス</q></p>
-	  <section>
-	    <div style="display:flex; padding-top:8rem">
-	      <div style="flex:1">
-		<h4>許可</h4>
-		<div style="display:flex">
-		  <ul style="flex:1">
-		    <li><span style="color:lightgreen">商用利用</span></li>
-		    <li><span style="color:lightgreen">頒布</span></li>
-		    <li><span style="color:lightgreen">改変</span></li>
-		  </ul>
-		  <ul style="flex:1">
-		    <li><span style="color:lightgreen">私的利用</span></li>
-		    <li><span style="color:lightgreen">特許利用</span></li>
-		  </ul>
-		</div>
-	      </div>
-	      <div style="flex:1">
-		<h4>制限</h4>
-		<ul>
-		  <li><span style="color:crimson">責任追求</span></li>
-		  <li><span style="color:crimson">保証</span></li>
-		</ul>
-	      </div>
-	    </div>
-	    <div style="padding-top:1rem">
-	      <h4>条件</h4>
-	      <ul>
-		<li>オリジナルのライセンスと著作権表示を残す</li>
-		<li>変更点を明記する</li>
-		<li><strong><span style="color:royalblue">ソースコードの開示</span></strong></li>
-		<li><strong><span style="color:royalblue">ライセンスの継承</span></strong></li>
-	      </ul>
-	    </div>
-	  </section>
-	  <section>
-	    <ul>
-	      <li>強力なライセンス</li>
-	      <li>当然ながらGNUの自由ソフトウエアで多く使用</li>
-	    </ul>
-	  </section>
-	</section>
+		<!-- Printing and PDF exports -->
+		<script>
+		var link = document.createElement( 'link' );
+		link.rel = 'stylesheet';
+		link.type = 'text/css';
+		link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+		document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<section>
+					<section>
+						<h2>ソフトウエアとライセンス</h2>
+						<small><small>
+							<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="クリエイティブ・コモンズ・ライセンス" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br /><a xmlns:cc="http://creativecommons.org/ns#" href="https://github.com/SecretSword2" property="cc:attributionName" rel="cc:attributionURL">torin</a> 作『<span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">ソフトウエアとライセンス</span>』は<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">クリエイティブ・コモンズ 表示 - 継承 4.0 国際 ライセンス</a>で提供されています。<br />このライセンスで許諾される範囲を超えた利用の可能性については以下のアドレスもご覧下さい。 <a xmlns:cc="http://creativecommons.org/ns#" href="https://github.com/hakimel/reveal.js" rel="cc:morePermissions">https://github.com/hakimel/reveal.js</a>
+						</small></small>
+					</section>
+					<section>
+						このスライドは<a href="https://github.com/hakimel/reveal.js/">Reveal.js</a>でお送りしております。<br>
+						みんなも使おう！
+					</section>
+				</section>
+				<section>
+					<h3>ライセンスとは？</h3>
+					<section>
+						<blockquote>
+							ライセンス（米: license、英: licence）は、それが存在しなければ違法となる行為をすることを許可すること、あるいはその許可を証する書面のことをいう。<br>
+						</blockquote>
+   						<cite><small>https://ja.wikipedia.org/wiki/ライセンス</small></cite>
+					</section>
+					<section>
+						<img src="./img/motoakioi_license.png">
+						これとか
+					</section>
+					<section>
+						<img src="./img/thisslide_license.png">
+						これのこと
+					</section>
+					<section>
+						自分の著作物を他人がどう使えるかを示す文章
+					</section>
+				</section>
+				<section>
+					<h3>主要なライセンス</h3>
+					<section>
+						<h4>ソフトウエア用</h4>
+						<ul>
+							<li>ライセンスなし</li>
+							<li>CC0</li>
+							<li>MIT</li>
+							<li>Apache License 2.0</li>
+							<li>GNU GPLv3</li>
+						</ul>
+					</section>
+					<section>
+						<h4>データ、メディアなど用</h4>
+						<ul>
+							<li>ライセンスなし</li>
+							<li>CC0</li>
+							<li>CC BY</li>
+							<li>CC BY-SA</li>
+							<li>CC BY-ND</li>
+							<li>CC BY-NC</li>
+							<li>CC BY-NC-SA</li>
+							<li>CC BY-NC-ND</li>
+						</ul>
+					</section>
+				</section>
+
+				<section>
+					<h3>用語説明</h3>
+					<table>
+						<tr>
+							<td>使用</td>
+							<td>バイナリを実行</td>
+						</tr>
+						<tr>
+							<td>コピー</td>
+							<td>ソースをコピー</td>
+						</tr>
+						<tr>
+							<td>改変</td>
+							<td>ソースを改変</td>
+						</tr>
+						<tr>
+							<td>頒布</td>
+							<td>作者以外が頒布</td>
+						</tr>
+						<tr>
+							<td>再許諾</td>
+							<td>別のライセンスで再公開</td>
+						</tr>
+						<tr>
+							<td>商用利用</td>
+							<td>成果物を商用利用</td>
+						</tr>
+					</table>
+				</section>
+
+				<section>
+					<h3>ライセンスなし</h3>
+					<p><q cite="https://developers.slashdot.org/story/12/12/01/1739223/half-of-github-code-unsafe-to-use-if-you-want-open-source">誰にもコードを使うことを許可しないのなら，<br>どうしてGitHubに載せるんだい？</q></p>
+					<section>
+						<div style="display:flex; padding-top:10rem">
+							<div style="flex:1">
+								<h4>許可</h4>
+								<ul>
+									<li>-</li>
+								</ul>
+							</div>
+							<div style="flex:1">
+								<h4>制限</h4>
+								<ul>
+									<li>-</li>
+								</ul>
+							</div>
+						</div>
+						<div style="padding-top:3rem">
+							<h4>条件</h4>
+							<ul>
+								<li>-</li>
+							</ul>
+						</div>
+					</section>
+					<section>
+						<ul>
+							<li>ライセンスなしは<span style="color:lightgreen">すべてを許可</span>ではない．<br>
+								<span style="color:crimson">なにも許可しない</span>である．</li>
+							<li>単純にライセンス書き忘れただけかと思われないように，ライセンスを与えない旨は書こう</li>
+						</ul>
+					</section>
+				</section>
+
+				<section>
+					<h3>CC0</h3>
+					<p><q cite="https://creativecommons.jp/sciencecommons/aboutcc0/">いかなる権利も保有しない</q></p>
+					<section>
+						<div style="display:flex; padding-top:10rem">
+							<div style="flex:1">
+								<h4>許可</h4>
+								<ul>
+									<li><span style="color:lightgreen">商用利用</span></li>
+									<li><span style="color:lightgreen">頒布</span></li>
+									<li><span style="color:lightgreen">改変</span></li>
+									<li><span style="color:lightgreen">私的利用</span></li>
+								</ul>
+							</div>
+							<div style="flex:1">
+								<h4>制限</h4>
+								<ul>
+									<li><span style="color:crimson">責任追求</span></li>
+									<li><span style="color:crimson">特許利用</span></li>
+									<li><span style="color:crimson">商標利用</span></li>
+									<li><span style="color:crimson">保証</span></li>
+								</ul>
+							</div>
+						</div>
+						<div style="padding-top:3rem">
+							<h4>条件</h4>
+							<ul>
+								<li>-</li>
+							</ul>
+						</div>
+					</section>
+					<section>
+						<ul style="padding-top:10rem">
+							<li>法律が絡むから，じつはパブリックドメインは難しい</li>
+							<li>CC0はもっとも簡単にあらゆる権利を徹底的に放棄する選択肢</li>
+						</ul>
+						<div style="padding-top:3rem">
+							<p>みなさんが思っている"ライセンスなし"の印象，<br>実はCC0なのでは？</p>
+						</div>
+					</section>
+				</section>
+
+				<section>
+					<h3>MIT</h3>
+					<p><q cite="https://choosealicense.com/licenses/mit/">短く完結で寛容なライセンス</q></p>
+					<section>
+						<div style="display:flex; padding-top:10rem">
+							<div style="flex:1">
+								<h4>許可</h4>
+								<ul>
+									<li><span style="color:lightgreen">商用利用</span></li>
+									<li><span style="color:lightgreen">頒布</span></li>
+									<li><span style="color:lightgreen">改変</span></li>
+									<li><span style="color:lightgreen">私的利用</span></li>
+								</ul>
+							</div>
+							<div style="flex:1">
+								<h4>制限</h4>
+								<ul>
+									<li><span style="color:crimson">責任追求</span></li>
+									<li><span style="color:crimson">保証</span></li>
+								</ul>
+							</div>
+						</div>
+						<div style="padding-top:3rem">
+							<h4>条件</h4>
+							<ul>
+								<li>オリジナルのライセンスと著作権表示を残す</li>
+							</ul>
+						</div>
+					</section>
+					<section>
+						<ul>
+							<li>ライセンスは171語しかない</li>
+							<li><q cite="https://markezine.jp/article/detail/22108">GitHubで最も使われているオープンソースライセンス</q>らしい</li>
+						</ul>
+					</section>
+				</section>
+
+				<section>
+					<h3>Apache 2.0</h3>
+					<p><q cite="https://choosealicense.com/licenses/apache-2.0/">特許について心配です</q></p>
+					<section>
+						<div style="display:flex; padding-top:8rem">
+							<div style="flex:1">
+								<h4>許可</h4>
+								<ul>
+									<li><span style="color:lightgreen">商用利用</span></li>
+									<li><span style="color:lightgreen">頒布</span></li>
+									<li><span style="color:lightgreen">改変</span></li>
+									<li><span style="color:lightgreen">私的利用</span></li>
+									<li><span style="color:lightgreen">特許利用</span></li>
+								</ul>
+							</div>
+							<div style="flex:1">
+								<h4>制限</h4>
+								<ul>
+									<li><span style="color:crimson">責任追求</span></li>
+									<li><span style="color:crimson">保証</span></li>
+									<li><span style="color:crimson">商標利用</span></li>
+								</ul>
+							</div>
+						</div>
+						<div style="padding-top:1rem">
+							<h4>条件</h4>
+							<ul>
+								<li>オリジナルのライセンスと著作権表示を残す</li>
+								<li>変更点を明記する</li>
+							</ul>
+						</div>
+					</section>
+					<section>
+						<ul>
+							<li>特許との関係を明記したライセンス</li>
+							<li>MITとどっちがゆるいのかは微妙</li>
+						</ul>
+					</section>
+				</section>
+				<section>
+					<h3>GNU GPLv3</h3>
+					<p><q cite="https://choosealicense.com/licenses/gpl-3.0/">強いコピーレフトなライセンス</q></p>
+					<section>
+						<div style="display:flex; padding-top:8rem">
+							<div style="flex:1">
+								<h4>許可</h4>
+								<div style="display:flex">
+									<ul style="flex:1">
+										<li><span style="color:lightgreen">商用利用</span></li>
+										<li><span style="color:lightgreen">頒布</span></li>
+										<li><span style="color:lightgreen">改変</span></li>
+									</ul>
+									<ul style="flex:1">
+										<li><span style="color:lightgreen">私的利用</span></li>
+										<li><span style="color:lightgreen">特許利用</span></li>
+									</ul>
+								</div>
+							</div>
+							<div style="flex:1">
+								<h4>制限</h4>
+								<ul>
+									<li><span style="color:crimson">責任追求</span></li>
+									<li><span style="color:crimson">保証</span></li>
+								</ul>
+							</div>
+						</div>
+						<div style="padding-top:1rem">
+							<h4>条件</h4>
+							<ul>
+								<li>オリジナルのライセンスと著作権表示を残す</li>
+								<li>変更点を明記する</li>
+								<li><strong><span style="color:royalblue">ソースコードの開示</span></strong></li>
+								<li><strong><span style="color:royalblue">ライセンスの継承</span></strong></li>
+							</ul>
+						</div>
+					</section>
+					<section>
+						<ul>
+							<li>強力なライセンス</li>
+							<li>当然ながらGNUの自由ソフトウエアで多く使用</li>
+						</ul>
+					</section>
+				</section>
+
+				<section>
+					<h3>クリエイティブ・コモンズ</h3>
+					<p><q cite="https://creativecommons.jp/">インターネット時代のための新しい著作権ルール</q></p>
+					<section>
+						<div style="display:flex; padding-top:10rem; justify-content:space-between">
+							<div style="flex:auto">
+								<img src="img/by.svg" style="border:none; background:none">
+								<h5>表示 (by)</h5>
+							</div>
+							<div style="flex:auto">
+								<img src="img/sa.svg" style="border:none; background:none">
+								<h5>継承 (sa)</h5>
+							</div>
+						</div>
+						<div style="display:flex; padding-top:3rem">
+							<div style="flex:auto">
+								<img src="img/nc.svg" style="border:none; background:none">
+								<h5>非営利 (nc)</h5>
+							</div>
+							<div style="flex:auto">
+								<img src="img/nd.svg" style="border:none; background:none">
+								<h5>改変禁止 (nd)</h5>
+							</div>
+						</div>
+						これらの組み合わせで6通りのライセンスを実現．
+					</section>
+					<section style="padding-top:10rem">
+						<ul>
+							<li><strong>CC BY</strong></li>
+							<li><strong>CC BY-SA</strong></li>
+							<li>CC BY-ND</li>
+							<li>CC BY-NC</li>
+							<li>CC BY-NC-SA</li>
+							<li>CC BY-NC-ND</li>
+						</ul>
+						<p>これらのライセンスはソフトウエア向きではない</p>
+					</section>
+				</section>
+
+				<section>
+					<h3>CC BY</h3>
+					<img src="img/ccby.svg" style="border:none; background:none">
+					<section>
+						<div style="display:flex; padding-top:8rem">
+							<div style="flex:1">
+								<h4>許可</h4>
+								<ul>
+									<li><span style="color:lightgreen">商用利用</span></li>
+									<li><span style="color:lightgreen">頒布</span></li>
+									<li><span style="color:lightgreen">改変</span></li>
+									<li><span style="color:lightgreen">私的利用</span></li>
+								</ul>
+							</div>
+							<div style="flex:1">
+								<h4>制限</h4>
+								<ul>
+									<li><span style="color:crimson">責任追求</span></li>
+									<li><span style="color:crimson">保証</span></li>
+									<li><span style="color:crimson">特許利用</span></li>
+									<li><span style="color:crimson">商標利用</span></li>
+								</ul>
+							</div>
+						</div>
+						<div style="padding-top:1rem">
+							<h4>条件</h4>
+							<ul>
+								<li>オリジナルのライセンスと著作権表示を残す</li>
+								<li>変更点を明記する</li>
+							</ul>
+						</div>
+					</section>
+					<section>
+						<ul>
+							<li>CCライセンスの中でもっともゆるい</li>
+							<li>これ以上のゆるいのがほしいなら，CC0</li>
+						</ul>
+					</section>
+				</section>
+
+				<section>
+					<h3>CC BY-SA</h3>
+					<img src="img/ccby-sa.svg" style="border:none; background:none">
+					<section>
+						<div style="display:flex; padding-top:8rem">
+							<div style="flex:1">
+								<h4>許可</h4>
+								<ul>
+									<li><span style="color:lightgreen">商用利用</span></li>
+									<li><span style="color:lightgreen">頒布</span></li>
+									<li><span style="color:lightgreen">改変</span></li>
+									<li><span style="color:lightgreen">私的利用</span></li>
+								</ul>
+							</div>
+							<div style="flex:1">
+								<h4>制限</h4>
+								<ul>
+									<li><span style="color:crimson">責任追求</span></li>
+									<li><span style="color:crimson">保証</span></li>
+									<li><span style="color:crimson">特許利用</span></li>
+									<li><span style="color:crimson">商標利用</span></li>
+								</ul>
+							</div>
+						</div>
+						<div style="padding-top:1rem">
+							<h4>条件</h4>
+							<ul>
+								<li>オリジナルのライセンスと著作権表示を残す</li>
+								<li>変更点を明記する</li>
+								<li>ライセンスの継承</li>
+							</ul>
+						</div>
+					</section>
+					<section>
+						<ul>
+							<li>CCライセンスの中でもっともゆるい</li>
+							<li>当然ながらGNUの自由ソフトウエアで多く使用</li>
+						</ul>
+					</section>
+				</section>
 
 
+							</div>
+						</div>
 
+						<script src="lib/js/head.min.js"></script>
+						<script src="js/reveal.js"></script>
 
-      </div>
-    </div>
-
-    <script src="lib/js/head.min.js"></script>
-    <script src="js/reveal.js"></script>
-
-    <script>
-      // More info about config & dependencies:
-      // - https://github.com/hakimel/reveal.js#configuration
-      // - https://github.com/hakimel/reveal.js#dependencies
-      Reveal.initialize({
-      dependencies: [
-      { src: 'plugin/markdown/marked.js' },
-      { src: 'plugin/markdown/markdown.js' },
-      { src: 'plugin/notes/notes.js', async: true },
-      { src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
-      ]
-      });
-    </script>
-  </body>
+						<script>
+						// More info about config & dependencies:
+							// - https://github.com/hakimel/reveal.js#configuration
+						// - https://github.com/hakimel/reveal.js#dependencies
+						Reveal.initialize({
+							dependencies: [
+								{ src: 'plugin/markdown/marked.js' },
+								{ src: 'plugin/markdown/markdown.js' },
+								{ src: 'plugin/notes/notes.js', async: true },
+								{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
+							]
+						});
+						</script>
+	</body>
 </html>
